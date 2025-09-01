@@ -1,2 +1,3 @@
 # College-Demo
-These i Free Folder trying test
+My College is The Colleage
+Teacher is the teacher
