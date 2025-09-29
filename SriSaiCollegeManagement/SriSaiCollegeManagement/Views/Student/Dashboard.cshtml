@@ -1,0 +1,229 @@
+﻿<!-- Views/Student/Dashboard.cshtml -->
+@model SriSaiCollegeManagement.Models.ViewModels.StudentDashboardViewModel
+@{
+    ViewData["Title"] = "Student Dashboard";
+}
+
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card dashboard-card bg-gradient-primary text-white">
+            <div class="card-body p-4">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h2 class="fw-bold mb-2">Welcome, @Model.Student.FirstName!</h2>
+                        <p class="mb-1">
+                            <i class="fas fa-id-card me-2"></i>Student ID: @Model.Student.StudentId
+                        </p>
+                        <p class="mb-1">
+                            <i class="fas fa-book me-2"></i>Course: @Model.Student.Course.CourseName
+                        </p>
+                        <p class="mb-0">
+                            <i class="fas fa-layer-group me-2"></i>@Model.CurrentSemester
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="student-avatar bg-white text-primary rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                            <i class="fas fa-user-graduate fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Stats Cards -->
+<div class="row g-4 mb-4">
+    <div class="col-lg-3 col-md-6">
+        <div class="card dashboard-card">
+            <div class="card-body text-center">
+                <div class="stat-icon bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                    <i class="fas fa-book-open fa-lg"></i>
+                </div>
+                <h4 class="fw-bold text-primary">@Model.EnrolledSubjects.Count</h4>
+                <p class="text-muted mb-0">Enrolled Subjects</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="card dashboard-card">
+            <div class="card-body text-center">
+                <div class="stat-icon bg-success text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                    <i class="fas fa-percentage fa-lg"></i>
+                </div>
+                <h4 class="fw-bold text-success">@Model.OverallAttendance.ToString("F1")%</h4>
+                <p class="text-muted mb-0">Overall Attendance</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="card dashboard-card">
+            <div class="card-body text-center">
+                <div class="stat-icon bg-warning text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                    <i class="fas fa-file-alt fa-lg"></i>
+                </div>
+                <h4 class="fw-bold text-warning">@Model.UpcomingExams.Count</h4>
+                <p class="text-muted mb-0">Upcoming Exams</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="card dashboard-card">
+            <div class="card-body text-center">
+                <div class="stat-icon bg-info text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                    <i class="fas fa-chart-bar fa-lg"></i>
+                </div>
+                <h4 class="fw-bold text-info">@Model.RecentResults.Count</h4>
+                <p class="text-muted mb-0">Recent Results</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-- Enrolled Subjects -->
+    <div class="col-lg-6 mb-4">
+        <div class="card dashboard-card">
+            <div class="card-header bg-primary text-white">
+                <h5 class="card-title mb-0">
+                    <i class="fas fa-book-open me-2"></i>My Subjects
+                </h5>
+            </div>
+            <div class="card-body">
+                @if (Model.EnrolledSubjects.Any())
+                {
+                    @foreach (var subject in Model.EnrolledSubjects)
+                    {
+                        <div class="subject-item d-flex justify-content-between align-items-center border-bottom py-3">
+                            <div>
+                                <h6 class="fw-bold text-primary mb-1">@subject.SubjectName</h6>
+                                <p class="text-muted small mb-0">
+                                    <i class="fas fa-code me-1"></i>@subject.SubjectCode
+                                    | <i class="fas fa-credit-card me-1"></i>@subject.Credits Credits
+                                    @if (subject.Teacher != null)
+                                    {
+                                        <br><i class="fas fa-user me-1"></i>@subject.Teacher.FullName
+                                    }
+                                </p>
+                            </div>
+                            <span class="badge bg-light text-dark">Semester @subject.Semester</span>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="text-muted mb-0">No subjects enrolled.</p>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Upcoming Exams -->
+    <div class="col-lg-6 mb-4">
+        <div class="card dashboard-card">
+            <div class="card-header bg-warning text-dark">
+                <h5 class="card-title mb-0">
+                    <i class="fas fa-calendar-alt me-2"></i>Upcoming Exams
+                </h5>
+            </div>
+            <div class="card-body">
+                @if (Model.UpcomingExams.Any())
+                {
+                    @foreach (var exam in Model.UpcomingExams)
+                    {
+                        <div class="exam-item border-bottom py-3">
+                            <h6 class="fw-bold text-warning mb-2">@exam.ExamName</h6>
+                            <p class="mb-1">
+                                <i class="fas fa-book me-1 text-muted"></i>@exam.Subject.SubjectName
+                            </p>
+                            <p class="mb-1">
+                                <i class="fas fa-calendar me-1 text-muted"></i>@exam.ExamDate.ToString("MMM dd, yyyy")
+                            </p>
+                            <p class="mb-0 small text-muted">
+                                <i class="fas fa-clock me-1"></i>@exam.StartTime.ToString(@"hh\:mm") - @exam.EndTime.ToString(@"hh\:mm")
+                                | <i class="fas fa-star me-1"></i>@exam.TotalMarks Marks
+                            </p>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="text-muted mb-0">No upcoming exams.</p>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Results -->
+    <div class="col-lg-6 mb-4">
+        <div class="card dashboard-card">
+            <div class="card-header bg-success text-white">
+                <h5 class="card-title mb-0">
+                    <i class="fas fa-chart-bar me-2"></i>Recent Results
+                </h5>
+            </div>
+            <div class="card-body">
+                @if (Model.RecentResults.Any())
+                {
+                    @foreach (var result in Model.RecentResults)
+                    {
+                        <div class="result-item d-flex justify-content-between align-items-center border-bottom py-3">
+                            <div>
+                                <h6 class="fw-bold mb-1">@result.Exam.ExamName</h6>
+                                <p class="text-muted small mb-0">@result.Exam.Subject.SubjectName</p>
+                            </div>
+                            <div class="text-end">
+                                <span class="badge bg-@(result.IsPassed ? "success" : "danger") mb-1">@result.Grade</span>
+                                <p class="small mb-0">@result.MarksObtained / @result.Exam.TotalMarks</p>
+                                <p class="small text-muted mb-0">@result.Percentage.ToString("F1")%</p>
+                            </div>
+                        </div>
+                    }
+                    <div class="text-center mt-3">
+                        <a asp-action="Results" class="btn btn-outline-success btn-sm">View All Results</a>
+                    </div>
+                }
+                else
+                {
+                    <p class="text-muted mb-0">No results available.</p>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Announcements -->
+    <div class="col-lg-6 mb-4">
+        <div class="card dashboard-card">
+            <div class="card-header bg-info text-white">
+                <h5 class="card-title mb-0">
+                    <i class="fas fa-bullhorn me-2"></i>Latest Announcements
+                </h5>
+            </div>
+            <div class="card-body">
+                @if (Model.Announcements.Any())
+                {
+                    @foreach (var announcement in Model.Announcements)
+                    {
+                        <div class="announcement-item border-bottom py-3">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h6 class="fw-bold text-info mb-0">@announcement.Title</h6>
+                                <span class="badge bg-@(announcement.Priority.ToLower() == "high" ? "danger" : announcement.Priority.ToLower() == "medium" ? "warning" : "info")">
+                                    @announcement.Priority
+                                </span>
+                            </div>
+                            <p class="text-muted small mb-1">@announcement.Content.Substring(0, Math.Min(80, announcement.Content.Length))...</p>
+                            <small class="text-muted">
+                                <i class="fas fa-calendar me-1"></i>@announcement.CreatedDate.ToString("MMM dd, yyyy")
+                            </small>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="text-muted mb-0">No announcements available.</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+

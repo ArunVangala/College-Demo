@@ -1,0 +1,324 @@
+﻿<!-- Views/Home/Index.cshtml -->
+@model SriSaiCollegeManagement.Models.ViewModels.DashboardViewModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- Hero Section -->
+<section class="hero-section bg-gradient-primary text-white py-5 mb-5 rounded">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="display-4 fw-bold mb-4">
+                    Welcome to<br>
+                    <span class="text-warning">Sri Sai College</span>
+                </h1>
+                <p class="lead mb-4">
+                    Excellence in IT and Management Education.
+                    Empowering students with knowledge, skills, and values for a successful future.
+                </p>
+                <div class="d-flex gap-3">
+                    <a href="#" class="btn btn-warning btn-lg">
+                        <i class="fas fa-graduation-cap me-2"></i>Apply Now
+                    </a>
+                    <a href="#" class="btn btn-outline-light btn-lg">
+                        <i class="fas fa-play me-2"></i>Virtual Tour
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <div class="hero-image">
+                    <i class="fas fa-university display-1 text-warning opacity-75"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats-section py-4 mb-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-card bg-primary text-white rounded p-4 text-center h-100">
+                    <i class="fas fa-user-graduate display-4 mb-3 opacity-75"></i>
+                    <h3 class="fw-bold">@Model.TotalStudents</h3>
+                    <p class="mb-0">Active Students</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-card bg-success text-white rounded p-4 text-center h-100">
+                    <i class="fas fa-chalkboard-teacher display-4 mb-3 opacity-75"></i>
+                    <h3 class="fw-bold">@Model.TotalTeachers</h3>
+                    <p class="mb-0">Expert Faculty</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-card bg-info text-white rounded p-4 text-center h-100">
+                    <i class="fas fa-book display-4 mb-3 opacity-75"></i>
+                    <h3 class="fw-bold">@Model.TotalCourses</h3>
+                    <p class="mb-0">Courses Offered</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-card bg-warning text-dark rounded p-4 text-center h-100">
+                    <i class="fas fa-book-open display-4 mb-3 opacity-75"></i>
+                    <h3 class="fw-bold">@Model.TotalSubjects</h3>
+                    <p class="mb-0">Subjects Available</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Main Content -->
+<div class="row">
+    <!-- Latest Announcements -->
+    <div class="col-lg-6 mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <h5 class="card-title mb-0">
+                    <i class="fas fa-bullhorn me-2"></i>Latest Announcements
+                </h5>
+            </div>
+            <div class="card-body">
+                @if (Model.RecentAnnouncements.Any())
+                {
+                    @foreach (var announcement in Model.RecentAnnouncements)
+                    {
+                        <div class="announcement-item border-bottom pb-3 mb-3">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <h6 class="fw-bold text-primary mb-1">@announcement.Title</h6>
+                                <span class="badge bg-@(announcement.Priority.ToLower() == "high" ? "danger" : announcement.Priority.ToLower() == "medium" ? "warning" : "info") text-dark">
+                                    @announcement.Priority
+                                </span>
+                            </div>
+                            <p class="text-muted small mb-2">@announcement.Content.Substring(0, Math.Min(100, announcement.Content.Length))...</p>
+                            <small class="text-muted">
+                                <i class="fas fa-calendar me-1"></i>@announcement.CreatedDate.ToString("MMM dd, yyyy")
+                            </small>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="text-muted mb-0">No announcements available.</p>
+                }
+                <div class="text-center mt-3">
+                    <a asp-controller="Home" asp-action="Announcements" class="btn btn-outline-primary btn-sm">
+                        View All Announcements
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Upcoming Exams -->
+    <div class="col-lg-6 mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header bg-success text-white">
+                <h5 class="card-title mb-0">
+                    <i class="fas fa-calendar-alt me-2"></i>Upcoming Exams
+                </h5>
+            </div>
+            <div class="card-body">
+                @if (Model.UpcomingExams.Any())
+                {
+                    @foreach (var exam in Model.UpcomingExams)
+                    {
+                        <div class="exam-item border-bottom pb-3 mb-3">
+                            <h6 class="fw-bold text-success mb-1">@exam.ExamName</h6>
+                            <p class="mb-1">
+                                <i class="fas fa-book me-1 text-muted"></i>
+                                <strong>Subject:</strong> @exam.Subject.SubjectName (@exam.Subject.SubjectCode)
+                            </p>
+                            <p class="mb-1">
+                                <i class="fas fa-calendar me-1 text-muted"></i>
+                                <strong>Date:</strong> @exam.ExamDate.ToString("MMM dd, yyyy")
+                            </p>
+                            <p class="mb-0 small text-muted">
+                                <i class="fas fa-clock me-1"></i>
+                                @exam.StartTime.ToString(@"hh\:mm") - @exam.EndTime.ToString(@"hh\:mm")
+                                | <i class="fas fa-star me-1"></i>@exam.TotalMarks Marks
+                            </p>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="text-muted mb-0">No upcoming exams scheduled.</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Quick Actions -->
+@if (User.Identity.IsAuthenticated)
+{
+    <section class="quick-actions-section py-4">
+        <div class="container">
+            <h3 class="text-center mb-4">Quick Actions</h3>
+            <div class="row g-3">
+                @if (User.IsInRole("Student"))
+                {
+                    <div class="col-md-3">
+                        <a asp-controller="Student" asp-action="Dashboard" class="btn btn-outline-primary btn-lg w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-tachometer-alt display-6 mb-2"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a asp-controller="Student" asp-action="Results" class="btn btn-outline-success btn-lg w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-chart-bar display-6 mb-2"></i>
+                            <span>View Results</span>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a asp-controller="Student" asp-action="Attendance" class="btn btn-outline-info btn-lg w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-calendar-check display-6 mb-2"></i>
+                            <span>Attendance</span>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a asp-controller="Student" asp-action="Profile" class="btn btn-outline-warning btn-lg w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-user display-6 mb-2"></i>
+                            <span>Profile</span>
+                        </a>
+                    </div>
+                }
+
+                @if (User.IsInRole("Teacher"))
+                {
+                    <div class="col-md-4">
+                        <a asp-controller="Teacher" asp-action="Dashboard" class="btn btn-outline-primary btn-lg w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-tachometer-alt display-6 mb-2"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a asp-controller="Teacher" asp-action="MarkAttendance" class="btn btn-outline-success btn-lg w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-check-square display-6 mb-2"></i>
+                            <span>Mark Attendance</span>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a asp-controller="Teacher" asp-action="EnterResults" class="btn btn-outline-info btn-lg w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-edit display-6 mb-2"></i>
+                            <span>Enter Results</span>
+                        </a>
+                    </div>
+                }
+
+                @if (User.IsInRole("Admin"))
+                {
+                    <div class="col-md-2">
+                        <a asp-controller="Admin" asp-action="Dashboard" class="btn btn-outline-primary btn-lg w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-tachometer-alt display-5 mb-2"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a asp-controller="Admin" asp-action="Students" class="btn btn-outline-success btn-lg w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-user-graduate display-5 mb-2"></i>
+                            <span>Students</span>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a asp-controller="Admin" asp-action="Teachers" class="btn btn-outline-info btn-lg w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-chalkboard-teacher display-5 mb-2"></i>
+                            <span>Teachers</span>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a asp-controller="Admin" asp-action="Courses" class="btn btn-outline-warning btn-lg w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-book display-5 mb-2"></i>
+                            <span>Courses</span>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a asp-controller="Admin" asp-action="Exams" class="btn btn-outline-danger btn-lg w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-file-alt display-5 mb-2"></i>
+                            <span>Exams</span>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a asp-controller="Admin" asp-action="Reports" class="btn btn-outline-secondary btn-lg w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-chart-line display-5 mb-2"></i>
+                            <span>Reports</span>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+}
+
+<!-- Features Section -->
+<section class="features-section py-5 bg-light">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <h2 class="fw-bold mb-3">Why Choose Sri Sai College?</h2>
+                <p class="lead text-muted">We provide world-class education with modern facilities and experienced faculty</p>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="feature-card text-center p-4 h-100 bg-white rounded shadow-sm">
+                    <div class="feature-icon bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                        <i class="fas fa-laptop-code fa-2x"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Modern Technology</h5>
+                    <p class="text-muted">State-of-the-art computer labs and modern teaching tools for practical learning experience.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="feature-card text-center p-4 h-100 bg-white rounded shadow-sm">
+                    <div class="feature-icon bg-success text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                        <i class="fas fa-users fa-2x"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Expert Faculty</h5>
+                    <p class="text-muted">Highly qualified and experienced teachers dedicated to student success and career guidance.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="feature-card text-center p-4 h-100 bg-white rounded shadow-sm">
+                    <div class="feature-icon bg-info text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                        <i class="fas fa-briefcase fa-2x"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">100% Placement</h5>
+                    <p class="text-muted">Strong industry connections ensuring excellent placement opportunities for all students.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        // Add some interactive effects
+        $(document).ready(function() {
+            $('.stat-card').hover(
+                function() {
+                    $(this).addClass('shadow-lg').css('transform', 'translateY(-5px)');
+                },
+                function() {
+                    $(this).removeClass('shadow-lg').css('transform', 'translateY(0)');
+                }
+            );
+
+            $('.feature-card').hover(
+                function() {
+                    $(this).addClass('shadow-lg').css('transform', 'translateY(-5px)');
+                },
+                function() {
+                    $(this).removeClass('shadow-lg').css('transform', 'translateY(0)');
+                }
+            );
+        });
+    </script>
+}

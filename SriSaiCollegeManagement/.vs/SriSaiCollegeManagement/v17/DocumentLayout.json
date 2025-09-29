@@ -1,0 +1,671 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\viewmodels\\teacherregistrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\viewmodels\\teacherregistrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\viewmodels\\teacherdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\viewmodels\\teacherdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\viewmodels\\studentreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\viewmodels\\studentreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\viewmodels\\studentregistrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\viewmodels\\studentregistrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\viewmodels\\studentdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\viewmodels\\studentdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\viewmodels\\resultentryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\viewmodels\\resultentryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\viewmodels\\examcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\viewmodels\\examcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\viewmodels\\attendanceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\viewmodels\\attendanceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\views\\student\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\views\\student\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Migrations\\20250929094846_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SriSaiCollegeManagement\\Migrations\\20250929094846_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\wwwroot\\css\\stylecollege.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\wwwroot\\css\\stylecollege.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\wwwroot\\js\\college.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\wwwroot\\js\\college.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\viewmodels\\searchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\viewmodels\\searchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|d:\\vangalaarun_solutions\\srisaicollegemanagement\\srisaicollegemanagement\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62097625-E018-4A29-9D14-6C750D0E3B64}|SriSaiCollegeManagement\\SriSaiCollegeManagement.csproj|solutionrelative:srisaicollegemanagement\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:509685457:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentReportViewModel.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\StudentReportViewModel.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\ViewModels\\StudentReportViewModel.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\StudentReportViewModel.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\ViewModels\\StudentReportViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:24:30.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeacherDashboardViewModel.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\TeacherDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\ViewModels\\TeacherDashboardViewModel.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\TeacherDashboardViewModel.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\ViewModels\\TeacherDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:22:12.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeacherRegistrationViewModel.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\TeacherRegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\ViewModels\\TeacherRegistrationViewModel.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\TeacherRegistrationViewModel.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\ViewModels\\TeacherRegistrationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:23:01.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Announcement.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Announcement.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\Announcement.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Announcement.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\Announcement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:20:11.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\Attendance.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Attendance.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:14:39.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\Course.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Course.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\Course.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:13:42.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\Enrollment.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Enrollment.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:19:06.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentRegistrationViewModel.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\StudentRegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\ViewModels\\StudentRegistrationViewModel.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\StudentRegistrationViewModel.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\ViewModels\\StudentRegistrationViewModel.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:22:35.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentDashboardViewModel.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\StudentDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\ViewModels\\StudentDashboardViewModel.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\StudentDashboardViewModel.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\ViewModels\\StudentDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:21:52.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResultEntryViewModel.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\ResultEntryViewModel.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\ViewModels\\ResultEntryViewModel.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\ResultEntryViewModel.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\ViewModels\\ResultEntryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:23:46.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExamCreateViewModel.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\ExamCreateViewModel.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\ViewModels\\ExamCreateViewModel.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\ExamCreateViewModel.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\ViewModels\\ExamCreateViewModel.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:23:23.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AttendanceViewModel.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\AttendanceViewModel.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\ViewModels\\AttendanceViewModel.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\AttendanceViewModel.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\ViewModels\\AttendanceViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:24:09.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:11:55.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExamController.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Controllers\\ExamController.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Controllers\\ExamController.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Controllers\\ExamController.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Controllers\\ExamController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:12:17.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:25:26.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:11:19.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TeacherController.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Controllers\\TeacherController.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Controllers\\TeacherController.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Controllers\\TeacherController.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Controllers\\TeacherController.cs",
+              "ViewState": "AgIAAAsBAAAAAAAAAAAUwB0BAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:11:36.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAANAAAAAAAAAAAAAgwPMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T09:38:14.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Views\\Student\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Views\\Student\\Dashboard.cshtml",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Views\\Student\\Dashboard.cshtml",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Views\\Student\\Dashboard.cshtml",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAgwOUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T09:36:52.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAALMAAAAAAAAAAAAiwDEBAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T09:28:20.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:12:53.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\appsettings.json",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\appsettings.json",
+              "RelativeToolTip": "SriSaiCollegeManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-29T09:10:06.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250929094846_InitialCreate.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Migrations\\20250929094846_InitialCreate.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Migrations\\20250929094846_InitialCreate.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Migrations\\20250929094846_InitialCreate.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Migrations\\20250929094846_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:48:46.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T09:27:42.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StyleCollege.css",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\wwwroot\\css\\StyleCollege.css",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\wwwroot\\css\\StyleCollege.css",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\wwwroot\\css\\StyleCollege.css",
+              "RelativeToolTip": "SriSaiCollegeManagement\\wwwroot\\css\\StyleCollege.css",
+              "ViewState": "AgIAAEsBAAAAAAAAAAAuwMEBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-29T09:30:47.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "College.js",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\wwwroot\\js\\College.js",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\wwwroot\\js\\College.js",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\wwwroot\\js\\College.js",
+              "RelativeToolTip": "SriSaiCollegeManagement\\wwwroot\\js\\College.js",
+              "ViewState": "AgIAAI8CAAAAAAAAAAAzwJ8CAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-29T09:32:32.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Program.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Program.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Program.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Program.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAgwGYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:39:32.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SriSaiCollegeManagement\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-29T09:29:24.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:15:23.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SearchViewModel.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\SearchViewModel.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\ViewModels\\SearchViewModel.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\SearchViewModel.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\ViewModels\\SearchViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:24:53.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:21:24.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:20:24.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\Subject.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Subject.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\Subject.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAxwBkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:18:40.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Result.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Result.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\Result.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Result.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\Result.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAxwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:14:18.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Exam.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\Exam.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Exam.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\Exam.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAxwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:13:57.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\Student.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Student.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\Student.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAiwAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:13:11.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "SriSaiCollegeManagement\\Models\\Teacher.cs",
+              "ToolTip": "D:\\VangalaArun_Solutions\\SriSaiCollegeManagement\\SriSaiCollegeManagement\\Models\\Teacher.cs",
+              "RelativeToolTip": "SriSaiCollegeManagement\\Models\\Teacher.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:13:26.397Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 63,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

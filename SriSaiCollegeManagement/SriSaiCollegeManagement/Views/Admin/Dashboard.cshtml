@@ -1,0 +1,244 @@
+﻿<!-- Views/Admin/Dashboard.cshtml -->
+@model SriSaiCollegeManagement.Models.ViewModels.DashboardViewModel
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card dashboard-card bg-gradient-primary text-white">
+            <div class="card-body p-4">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h2 class="fw-bold mb-2">
+                            <i class="fas fa-cogs me-3"></i>Admin Dashboard
+                        </h2>
+                        <p class="mb-0">Welcome to Sri Sai College Management System</p>
+                        <small class="opacity-75">Manage all college operations from here</small>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="admin-icon bg-white text-primary rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                            <i class="fas fa-user-shield fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Statistics Cards -->
+<div class="row g-4 mb-4">
+    <div class="col-lg-3 col-md-6">
+        <div class="card dashboard-card stat-card bg-primary text-white">
+            <div class="card-body text-center p-4">
+                <i class="fas fa-user-graduate display-4 mb-3 opacity-75"></i>
+                <h3 class="fw-bold">@Model.TotalStudents</h3>
+                <p class="mb-0">Total Students</p>
+                <div class="mt-3">
+                    <a asp-action="Students" class="btn btn-outline-light btn-sm">
+                        <i class="fas fa-eye me-1"></i>View All
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+        <div class="card dashboard-card stat-card bg-success text-white">
+            <div class="card-body text-center p-4">
+                <i class="fas fa-chalkboard-teacher display-4 mb-3 opacity-75"></i>
+                <h3 class="fw-bold">@Model.TotalTeachers</h3>
+                <p class="mb-0">Total Teachers</p>
+                <div class="mt-3">
+                    <a asp-action="Teachers" class="btn btn-outline-light btn-sm">
+                        <i class="fas fa-eye me-1"></i>View All
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+        <div class="card dashboard-card stat-card bg-info text-white">
+            <div class="card-body text-center p-4">
+                <i class="fas fa-book display-4 mb-3 opacity-75"></i>
+                <h3 class="fw-bold">@Model.TotalCourses</h3>
+                <p class="mb-0">Active Courses</p>
+                <div class="mt-3">
+                    <a asp-action="Courses" class="btn btn-outline-light btn-sm">
+                        <i class="fas fa-eye me-1"></i>View All
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+        <div class="card dashboard-card stat-card bg-warning text-dark">
+            <div class="card-body text-center p-4">
+                <i class="fas fa-book-open display-4 mb-3 opacity-75"></i>
+                <h3 class="fw-bold">@Model.TotalSubjects</h3>
+                <p class="mb-0">Total Subjects</p>
+                <div class="mt-3">
+                    <a asp-action="Subjects" class="btn btn-outline-dark btn-sm">
+                        <i class="fas fa-eye me-1"></i>View All
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Quick Actions -->
+<div class="row g-4 mb-4">
+    <div class="col-12">
+        <h4 class="fw-bold mb-3">
+            <i class="fas fa-bolt me-2 text-primary"></i>Quick Actions
+        </h4>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6">
+        <a asp-action="CreateStudent" class="card quick-action-btn text-decoration-none h-100">
+            <div class="card-body text-center">
+                <i class="fas fa-user-plus fa-2x text-primary mb-2"></i>
+                <h6 class="fw-bold">Add Student</h6>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6">
+        <a asp-action="CreateTeacher" class="card quick-action-btn text-decoration-none h-100">
+            <div class="card-body text-center">
+                <i class="fas fa-chalkboard-teacher fa-2x text-success mb-2"></i>
+                <h6 class="fw-bold">Add Teacher</h6>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6">
+        <a asp-action="CreateCourse" class="card quick-action-btn text-decoration-none h-100">
+            <div class="card-body text-center">
+                <i class="fas fa-plus fa-2x text-info mb-2"></i>
+                <h6 class="fw-bold">Add Course</h6>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6">
+        <a asp-action="CreateExam" class="card quick-action-btn text-decoration-none h-100">
+            <div class="card-body text-center">
+                <i class="fas fa-file-alt fa-2x text-warning mb-2"></i>
+                <h6 class="fw-bold">Schedule Exam</h6>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6">
+        <a asp-action="CreateAnnouncement" class="card quick-action-btn text-decoration-none h-100">
+            <div class="card-body text-center">
+                <i class="fas fa-bullhorn fa-2x text-danger mb-2"></i>
+                <h6 class="fw-bold">Add Announcement</h6>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6">
+        <a asp-action="Reports" class="card quick-action-btn text-decoration-none h-100">
+            <div class="card-body text-center">
+                <i class="fas fa-chart-line fa-2x text-secondary mb-2"></i>
+                <h6 class="fw-bold">View Reports</h6>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="row">
+    <!-- Recent Announcements -->
+    <div class="col-lg-6 mb-4">
+        <div class="card dashboard-card">
+            <div class="card-header bg-primary text-white">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="card-title mb-0">
+                        <i class="fas fa-bullhorn me-2"></i>Recent Announcements
+                    </h5>
+                    <a asp-action="Announcements" class="btn btn-outline-light btn-sm">View All</a>
+                </div>
+            </div>
+            <div class="card-body">
+                @if (Model.RecentAnnouncements.Any())
+                {
+                    @foreach (var announcement in Model.RecentAnnouncements)
+                    {
+                        <div class="announcement-item border-bottom py-3">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h6 class="fw-bold text-primary mb-0">@announcement.Title</h6>
+                                <span class="badge bg-@(announcement.Priority.ToLower() == "high" ? "danger" : announcement.Priority.ToLower() == "medium" ? "warning" : "info")">
+                                    @announcement.Priority
+                                </span>
+                            </div>
+                            <p class="text-muted small mb-1">@announcement.Content.Substring(0, Math.Min(100, announcement.Content.Length))...</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">
+                                    <i class="fas fa-calendar me-1"></i>@announcement.CreatedDate.ToString("MMM dd, yyyy")
+                                </small>
+                                <span class="badge bg-light text-dark">@announcement.Category</span>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="text-muted mb-0">No recent announcements.</p>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Upcoming Exams -->
+    <div class="col-lg-6 mb-4">
+        <div class="card dashboard-card">
+            <div class="card-header bg-success text-white">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="card-title mb-0">
+                        <i class="fas fa-calendar-alt me-2"></i>Upcoming Exams
+                    </h5>
+                    <a asp-action="Exams" class="btn btn-outline-light btn-sm">View All</a>
+                </div>
+            </div>
+            <div class="card-body">
+                @if (Model.UpcomingExams.Any())
+                {
+                    @foreach (var exam in Model.UpcomingExams)
+                    {
+                        <div class="exam-item border-bottom py-3">
+                            <h6 class="fw-bold text-success mb-1">@exam.ExamName</h6>
+                            <p class="mb-1">
+                                <i class="fas fa-book me-1 text-muted"></i>
+                                <strong>Subject:</strong> @exam.Subject.SubjectName (@exam.Subject.SubjectCode)
+                            </p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="mb-0 small">
+                                        <i class="fas fa-calendar me-1 text-muted"></i>
+                                        <strong>Date:</strong> @exam.ExamDate.ToString("MMM dd, yyyy")
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="mb-0 small">
+                                        <i class="fas fa-clock me-1 text-muted"></i>
+                                        <strong>Time:</strong> @exam.StartTime.ToString(@"hh\:mm") - @exam.EndTime.ToString(@"hh\:mm")
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="text-muted mb-0">No upcoming exams scheduled.</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
