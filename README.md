@@ -1,4 +1,2 @@
 # College-Demo
-My College is The Colleage
-<br>
-Teachers and Students
+#Sri Sai College of IT and Management - Complete Management System
